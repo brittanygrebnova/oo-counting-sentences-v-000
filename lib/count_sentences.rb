@@ -8,11 +8,14 @@ class String
     else
       false
     end
-    self.end_with?(".")
   end
 
   def question?
-  
+     if self.end_with?("?")
+      true
+    else
+      false
+    end
   end
 
   def exclamation?
